@@ -31,8 +31,8 @@ internal class Program
     private static void Main(string[] args)
     {
         Persona p1= new Persona("Alicia");
-        Empleado e1= new Empleado ("Alicia","005")
-        Persona em= new Empleado ("Alicia","055")
+        Empleado e1= new Empleado ("Alicia","005");
+        Persona em= new Empleado ("Alicia","055");
         p1.Imprime();
         e1.Imprime();
         em.Imprime();
