@@ -6,7 +6,7 @@
     {
         Nombre = nombre;
     }
-    public void Imprime()
+    public virtual void Imprime()
     {
         Console.WriteLine(Nombre);
     }
