@@ -22,6 +22,7 @@ class Empleado:Persona
     }
     public void Imprime()
     {
+        base.Imprime();
         Console.WriteLine($"{this.NumEmpleado}{this.Nombre}");
     }
 }
@@ -30,11 +31,11 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Persona p1= new Persona("Alicia");
-        Empleado e1= new Empleado ("Alicia","005");
-        Persona em= new Empleado ("Alicia","055");
-        p1.Imprime();
-        e1.Imprime();
-        em.Imprime();
+        List<Persona> personas= new List<Persona>();
+        personas.Add[new Persona("Alicia")];
+        personas.Add[new Empleado ("Alicia","005")];
+        personas.Add[new Empleado ("Alicia","055")];
+        foreach(var p in personas)
+        p.Imprime();
     }
 }
