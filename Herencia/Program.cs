@@ -35,6 +35,6 @@ internal class Program
         Persona em= new Empleado ("Alicia","055")
         p1.Imprime();
         e1.Imprime();
-        em.Imprime
+        em.Imprime();
     }
 }
